@@ -3,8 +3,7 @@ import py2exe, sys, os
 
 setup(
 	console = [{
-		"script":"odt-extraction.py",
-                "icon_resources": [(1, "myicon.ico")]
+		"script":"odt2excel.py"
         }],
         zipfile = None,
         data_files = None,
