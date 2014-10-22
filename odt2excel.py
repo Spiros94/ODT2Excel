@@ -93,7 +93,7 @@ def NumberRowSplit(nrow):
     nrow = filter(lambda name: name.strip(), nrow)
     return nrow
 '''
-# Tk based
+# Console based question
 def AskForInput(ODTfile):
     q = raw_input('[?] Enter file name(default graph.odt): ')
     if q != '':
@@ -108,7 +108,7 @@ def main():
     ODTfile = tkFileDialog.askopenfilename()
     print '[+] Open File'
     
-    ''' Tk based
+    ''' # Console based question
     ODTfile = AskForInput(ODTfileIn)
     '''
     
