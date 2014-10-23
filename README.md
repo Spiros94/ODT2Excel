@@ -1,7 +1,7 @@
 ODT2Excel
 =========
 
-Python based script that translates ODT files to Excel readable files
+This is a tool for the Oommf Project (http://math.nist.gov/oommf/) and more specific for the files outputed from the mmGraph tool. Python based script that translates ODT files to Excel files.
 
 Installation
 --------------
